@@ -1,5 +1,4 @@
-package net.orionstudio.orionutilcraft.item.custom;
-
+package net.orionstudio.orionutilcraft.item.customeconomy;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -10,17 +9,15 @@ import net.minecraft.world.World;
 import javax.annotation.Nullable;
 import java.util.List;
 
+public class customgoldcoin extends Item {
+    public customgoldcoin(Item.Properties properties) {super(properties);}
 
-    public class epicitems extends Item {
-    public epicitems(Properties properties) {
-        super(properties);
-    }
 
     @Override
-    public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
-
-        tooltip.add(new TranslationTextComponent("tooltip.orionutilcraft.epicitem"));
-
+    public void  addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
+        tooltip.add(new TranslationTextComponent("tooltip.orionutilcraft.goldcoin"));
         super.addInformation(stack, worldIn, tooltip, flagIn);
+
     }
+
 }

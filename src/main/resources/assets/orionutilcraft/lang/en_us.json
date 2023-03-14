@@ -1,10 +1,30 @@
 {
-  "item.orionutilcraft.sapphire_relic": "Sapphire Relic",
-  "item.orionutilcraft.oriongraycoin": "Gray Coin",
+  "item.orionutilcraft.sapphire_relic": "Sapphire",
+  "item.orionutilcraft.fire_relic": "Fire Relic",
+  "item.orionutilcraft.desert_relic": "Desert Relic",
+  "item.orionutilcraft.water_relic": "Water Relic",
+  "item.orionutilcraft.aquamarine_relic": "Aquamarine Relic",
+  "item.orionutilcraft.amethyst_relic": "Amethyst Relic",
+  "item.orionutilcraft.granate_relic": "Granate",
+
+  "item.orionutilcraft.orionbrowncoin": "Copper Coin",
+  "item.orionutilcraft.oriongraycoin": "Silver Coin",
+  "item.orionutilcraft.oriongoldcoin": "Gold Coin",
+  "item.orionutilcraft.orionbluecoin": "Water Coin",
+
+  "block.orionutilcraft.test_block": "Test Block",
+
 
   "itemGroup.orioneconomytab": "Orion Economy",
   "itemGroup.orionutilmodtab": "Orion Utils",
-  "tooltip.orionutilcraft.epicitem": "\u00A7fUna reliquia \u00A7d\u00A7lEPICA \u00A7f¡tiene un grán valor!",
 
-  "tooltip.orionutilcraft.graycoin": "\u00A7l\u00A7e$50\u00A7f Doblones"
+
+
+  "tooltip.orionutilcraft.reliques": "\u00A7fAn \u00A7b\u00A7lRELIQUE\u00A7f has great value!",
+
+
+  "tooltip.orionutilcraft.browncoin": "\u00A7l\u00A7e$1\u00A7f Doblon",
+  "tooltip.orionutilcraft.graycoin": "\u00A7l\u00A7e$50\u00A7f Doblones",
+  "tooltip.orionutilcraft.goldcoin": "\u00A7l\u00A7e$200\u00A7f Doblones",
+  "tooltip.orionutilcraft.bluecoin": "\u00A7l\u00A7e$600\u00A7f Doblones"
 }

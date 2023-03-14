@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "orionutilcraft:oriongoldcoin"
+    },
+    "S": {
+      "item": "orionutilcraft:oriongraycoin"
+    }
+  },
+
+  "result": {
+    "item": "orionutilcraft:test_block",
+    "count": 4
+  }
+}

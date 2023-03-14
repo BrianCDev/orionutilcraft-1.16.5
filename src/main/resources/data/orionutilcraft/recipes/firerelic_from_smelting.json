@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "orionutilcraft:test_block"
+  },
+  "result": "orionutilcraft:fire_relic",
+  "count": 2,
+  "experience": 40.0,
+  "cookingtime": 2400
+}

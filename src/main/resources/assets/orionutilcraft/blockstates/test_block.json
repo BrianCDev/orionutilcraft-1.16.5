@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "orionutilcraft:block/test_block"}
+  }
+}
