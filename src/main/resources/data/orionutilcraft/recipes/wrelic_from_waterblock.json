@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "orionutilcraft:test_block"
+      "item": "orionutilcraft:waterblock_relic"
     }
   ],
   "result": {
-    "item": "orionutilcraft:fire_relic",
+    "item": "orionutilcraft:water_relic",
     "count": 9
   }
 }

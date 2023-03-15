@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "orionutilcraft:test_block"
+    "item": "orionutilcraft:waterblock_relic"
   },
-  "result": "orionutilcraft:fire_relic",
-  "count": 2,
+  "result": "orionutilcraft:water_relic",
+  "count": 9,
   "experience": 40.0,
   "cookingtime": 2400
 }

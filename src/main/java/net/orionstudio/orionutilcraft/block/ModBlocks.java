@@ -21,14 +21,16 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, OrionUtilCraft.MOD_ID);
 
-    // Blocks
 
-    public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
-            () -> new Block(AbstractBlock.Properties.create(Material.WOOD)
-                    .harvestLevel(1)
-                    .harvestTool(ToolType.AXE)
+
+    // Relic Blocks
+    public static final RegistryObject<Block> WATERBLOCK_RELIC = registerBlock("waterblock_relic",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE)
                     .setRequiresTool()
-                    .hardnessAndResistance(2f)));
+                    .hardnessAndResistance(50f)));
+
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
@@ -42,6 +44,8 @@ public class ModBlocks {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties().group(ModItemGroup.ORIONUTIL_GROUP)));
     }
+
+
 
 
     public static void register(IEventBus eventBus){

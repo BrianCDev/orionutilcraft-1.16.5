@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orionutilcraft:water_relic"
+    }
+  },
+
+  "result": {
+    "item": "orionutilcraft:waterblock_relic",
+    "count": 1
+  }
+}
