@@ -31,6 +31,20 @@ public class ModBlocks {
                     .setRequiresTool()
                     .hardnessAndResistance(50f)));
 
+    public static final RegistryObject<Block> FIREBLOCK_RELIC = registerBlock("fireblock_relic",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(50f)));
+
+    public static final RegistryObject<Block> DESERTBLOCK_RELIC = registerBlock("desertblock_relic",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(50f)));
+
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){

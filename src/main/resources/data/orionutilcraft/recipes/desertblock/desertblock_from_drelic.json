@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orionutilcraft:desert_relic"
+    }
+  },
+
+  "result": {
+    "item": "orionutilcraft:desertblock_relic",
+    "count": 1
+  }
+}

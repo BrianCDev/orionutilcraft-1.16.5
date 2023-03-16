@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orionutilcraft:desertblock_relic"
+    }
+  ],
+  "result": {
+    "item": "orionutilcraft:desert_relic",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "orionutilcraft:desertblock_relic"
+  },
+  "result": "orionutilcraft:desert_relic",
+  "count": 9,
+  "experience": 40.0,
+  "cookingtime": 2400
+}

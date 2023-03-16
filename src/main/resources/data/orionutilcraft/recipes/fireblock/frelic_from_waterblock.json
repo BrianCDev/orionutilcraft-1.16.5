@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orionutilcraft:fireblock_relic"
+    }
+  ],
+  "result": {
+    "item": "orionutilcraft:fire_relic",
+    "count": 9
+  }
+}

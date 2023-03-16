@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orionutilcraft:fire_relic"
+    }
+  },
+
+  "result": {
+    "item": "orionutilcraft:fireblock_relic",
+    "count": 1
+  }
+}

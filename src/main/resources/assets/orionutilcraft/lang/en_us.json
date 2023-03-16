@@ -7,12 +7,15 @@
   "item.orionutilcraft.amethyst_relic": "Amethyst Relic",
   "item.orionutilcraft.granate_relic": "Granate",
 
-  "item.orionutilcraft.orionbrowncoin": "Copper Coin",
-  "item.orionutilcraft.oriongraycoin": "Silver Coin",
-  "item.orionutilcraft.oriongoldcoin": "Gold Coin",
-  "item.orionutilcraft.orionbluecoin": "Water Coin",
+  "item.orionutilcraft.orionbrowncoin": "Desert Coin",
+  "item.orionutilcraft.oriongraycoin": "Turquoise Coin",
+  "item.orionutilcraft.oriongoldcoin": "Amethyst Coin",
+  "item.orionutilcraft.orionbluecoin": "Fire Coin",
+  "item.orionutilcraft.orionturquoisecoin": "Water Coin",
 
-  "block.orionutilcraft.waterblock_relic": "Bloque de Agua",
+  "block.orionutilcraft.waterblock_relic": "Water Block",
+  "block.orionutilcraft.fireblock_relic": "Fire Block",
+  "block.orionutilcraft.desertblock_relic": "Desert Block",
 
 
   "itemGroup.orioneconomytab": "Orion Economy",
@@ -23,8 +26,9 @@
   "tooltip.orionutilcraft.reliques": "\u00A7fAn \u00A7b\u00A7lRELIQUE\u00A7f has great value!",
 
 
-  "tooltip.orionutilcraft.browncoin": "\u00A7l\u00A7e$1\u00A7f Doblon",
-  "tooltip.orionutilcraft.graycoin": "\u00A7l\u00A7e$50\u00A7f Doblones",
-  "tooltip.orionutilcraft.goldcoin": "\u00A7l\u00A7e$200\u00A7f Doblones",
-  "tooltip.orionutilcraft.bluecoin": "\u00A7l\u00A7e$600\u00A7f Doblones"
+  "tooltip.orionutilcraft.browncoin": "\u00A7l\u00A7e$1\u00A7f Relicarios",
+  "tooltip.orionutilcraft.graycoin": "\u00A7l\u00A7e$50\u00A7f Relicarios",
+  "tooltip.orionutilcraft.goldcoin": "\u00A7l\u00A7e$200\u00A7f Relicarios",
+  "tooltip.orionutilcraft.bluecoin": "\u00A7l\u00A7e$500\u00A7f Relicarios",
+  "tooltip.orionutilcraft.turquoise": "\u00A7l\u00A7e$1000\u00A7f Relicarios"
 }

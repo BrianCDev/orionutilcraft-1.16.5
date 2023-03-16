@@ -9,10 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.orionstudio.orionutilcraft.OrionUtilCraft;
 import net.orionstudio.orionutilcraft.item.custom.reliques;
-import net.orionstudio.orionutilcraft.item.customeconomy.custombluecoin;
-import net.orionstudio.orionutilcraft.item.customeconomy.custombrowncoin;
-import net.orionstudio.orionutilcraft.item.customeconomy.customgoldcoin;
-import net.orionstudio.orionutilcraft.item.customeconomy.customgraycoin;
+import net.orionstudio.orionutilcraft.item.customeconomy.*;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -21,46 +18,34 @@ public class ModItems {
     // Item Add
     // MINERAL
 
-    public static final RegistryObject<Item> SAPPHIRE_RELIC = ITEMS.register("sapphire_relic",
-            () -> new reliques(new Item.Properties()
-                    .group(ModItemGroup.ORIONUTIL_GROUP)
-                    .maxStackSize(2)
-                    .rarity(Rarity.RARE)));
-
     public static final RegistryObject<Item> FIRE_RELIC = ITEMS.register("fire_relic",
             () -> new reliques(new Item.Properties()
                     .group(ModItemGroup.ORIONUTIL_GROUP)
                     .rarity(Rarity.RARE)
-                    .maxStackSize(2)));
+                    .maxStackSize(9)));
 
     public static final RegistryObject<Item> DESERT_RELIC = ITEMS.register("desert_relic",
             () -> new reliques(new Item.Properties()
                     .group(ModItemGroup.ORIONUTIL_GROUP)
-                    .maxStackSize(2)
+                    .maxStackSize(9)
                     .rarity(Rarity.RARE)));
 
     public static final RegistryObject<Item> WATER_RELIC = ITEMS.register("water_relic",
             () -> new reliques(new Item.Properties()
                     .group(ModItemGroup.ORIONUTIL_GROUP)
-                    .maxStackSize(2)
+                    .maxStackSize(9)
                     .rarity(Rarity.RARE)));
 
     public static final RegistryObject<Item> AQUAMARINE_RELIC = ITEMS.register("aquamarine_relic",
             () -> new reliques(new Item.Properties()
                     .group(ModItemGroup.ORIONUTIL_GROUP)
-                    .maxStackSize(2)
+                    .maxStackSize(9)
                     .rarity(Rarity.RARE)));
 
     public static final RegistryObject<Item> AMETHYST_RELIC = ITEMS.register("amethyst_relic",
             () -> new reliques(new Item.Properties()
                     .group(ModItemGroup.ORIONUTIL_GROUP)
-                    .maxStackSize(2)
-                    .rarity(Rarity.RARE)));
-
-    public static final RegistryObject<Item> GRANATE_RELIC = ITEMS.register("granate_relic",
-            () -> new reliques(new Item.Properties()
-                    .group(ModItemGroup.ORIONUTIL_GROUP)
-                    .maxStackSize(2)
+                    .maxStackSize(9)
                     .rarity(Rarity.RARE)));
 
     // Economy
@@ -79,10 +64,16 @@ public class ModItems {
                     .group(ModItemGroup.ORIOECONOMY_GROUP)
                     .rarity(Rarity.UNCOMMON)));
 
-    public static final RegistryObject<Item> a = ITEMS.register("orionbluecoin",
+    public static final RegistryObject<Item> BLUECOIN = ITEMS.register("orionbluecoin",
             () -> new custombluecoin(new Item.Properties()
                     .group(ModItemGroup.ORIOECONOMY_GROUP)
                     .rarity(Rarity.UNCOMMON)));
+    
+    public static final RegistryObject<Item> TURQUOISECOIN = ITEMS.register("orionturquoisecoin",
+            () -> new customturquoisecoin(new Item.Properties()
+                    .group(ModItemGroup.ORIOECONOMY_GROUP)
+                    .rarity(Rarity.UNCOMMON)));
+
 
 
     public static void register(IEventBus eventBus) {

@@ -16,7 +16,7 @@ public class ModItemGroup {
     public static final ItemGroup ORIOECONOMY_GROUP = new ItemGroup("orioneconomytab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.GOLDCOIN.get());
+            return new ItemStack(ModItems.TURQUOISECOIN.get());
         }
     };
 
