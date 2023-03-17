@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orionutilcraft:amethyst_relic"
+    }
+  },
+
+  "result": {
+    "item": "orionutilcraft:amethystblock_relic",
+    "count": 1
+  }
+}

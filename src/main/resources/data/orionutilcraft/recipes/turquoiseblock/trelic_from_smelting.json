@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "orionutilcraft:turquoiseblock_relic"
+  },
+  "result": "orionutilcraft:aquamarine_relic",
+  "count": 9,
+  "experience": 40.0,
+  "cookingtime": 2400
+}

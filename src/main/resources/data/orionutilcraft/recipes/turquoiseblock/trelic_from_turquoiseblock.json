@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orionutilcraft:turquoiseblock_relic"
+    }
+  ],
+  "result": {
+    "item": "orionutilcraft:aquamarine_relic",
+    "count": 9
+  }
+}

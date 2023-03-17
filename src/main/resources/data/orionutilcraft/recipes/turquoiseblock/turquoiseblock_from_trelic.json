@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orionutilcraft:aquamarine_relic"
+    }
+  },
+
+  "result": {
+    "item": "orionutilcraft:turquoiseblock_relic",
+    "count": 1
+  }
+}

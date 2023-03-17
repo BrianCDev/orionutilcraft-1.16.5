@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "orionutilcraft:amethystblock_relic"
+  },
+  "result": "orionutilcraft:amethyst_relic",
+  "count": 9,
+  "experience": 40.0,
+  "cookingtime": 2400
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orionutilcraft:amethystblock_relic"
+    }
+  ],
+  "result": {
+    "item": "orionutilcraft:amethyst_relic",
+    "count": 9
+  }
+}

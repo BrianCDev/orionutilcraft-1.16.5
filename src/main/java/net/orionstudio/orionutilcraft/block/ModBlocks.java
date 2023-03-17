@@ -46,6 +46,20 @@ public class ModBlocks {
                     .hardnessAndResistance(50f)));
 
 
+    public static final RegistryObject<Block> TURQUOISEBLOCK_RELIC = registerBlock("turquoiseblock_relic",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(50f)));
+
+    public static final RegistryObject<Block> AMETHYSTBLOCK_RELIC = registerBlock("amethystblock_relic",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(50f)));
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
